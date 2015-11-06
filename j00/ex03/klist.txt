@@ -1,0 +1,6 @@
+Credentials cache: API:9C69FCA5-514A-4E70-A94A-A9B7B4FE5990
+        Principal: qhusler@42.FR
+
+		  Issued                Expires               Principal
+		  Oct 13 10:17:35 2015  Oct 20 10:17:31 2015  krbtgt/42.FR@42.FR
+		  Oct 13 10:17:50 2015  Oct 20 10:17:31 2015  host/vogsphere-frontend-normal-1.42.fr@42.FR
