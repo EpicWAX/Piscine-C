@@ -1,27 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_btree.h                                         :+:      :+:    :+:   */
+/*   prlanorm.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: qhusler <qhusler@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2015/11/06 21:20:44 by qhusler           #+#    #+#             */
-/*   Updated: 2015/12/16 14:44:03 by qhusler          ###   ########.fr       */
+/*   Created: 2015/12/03 11:27:03 by qhusler           #+#    #+#             */
+/*   Updated: 2015/12/03 19:11:25 by qhusler          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_BTREE_H
-# define FT_BTREE_H
+#include "j12.h"
 
-# include <stdlib.h>
-
-typedef struct			s_btree
+void	optimain_one(int n)
 {
-	struct s_btree		*left;
-	struct s_btree		*right;
-	void				*item;
-}						t_btree;
+	hexa_line(n);
+	ft_putchar('\n');
+}
 
-t_btree					*btree_create_node(void *item);
-
-#endif
+void	optimain_two(int n)
+{
+	hexa_line_two(n);
+	ft_putchar('\n');
+}
